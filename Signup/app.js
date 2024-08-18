@@ -22,7 +22,3 @@ app.post("/",function(req,res){
     console.log(password);
 
 })
-// api
-// 5798394d44337383473b02982daddce8-us10
-// audience id
-// 4c2e61a346
