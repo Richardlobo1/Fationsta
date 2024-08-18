@@ -1,0 +1,36 @@
+body{
+    padding-left: 35%;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: black;
+}
+
+ul {
+    display: flex;
+    display: none;
+    justify-content: right;
+    right: 50%;
+}
+
+.payment li:hover ul {
+    display: block;
+
+}
+
+button {
+    background-color: #04ede1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -1,0 +1,1 @@
+window.location.href = "C:/Users/Richard Lobo/Desktop/E-commerce Website/ecom.html";

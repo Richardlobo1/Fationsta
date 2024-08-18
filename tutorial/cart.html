@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="C:\Users\Richard Lobo\Documents\Seminar\style.css.css">
+</head>
+
+<body>
+
+    <h1>Select Payment Method</h1>
+    <div class="payment">
+        <li><a href="">Debit/ATM card</a>
+            <div class="box">
+                <ul>
+                    <li>Name<input type="text" name="" placeholder="Name on card" id=""></li>
+                    <li>Card Number<input type="number" name="Number on card" id=""></li>
+                    <li>cvv <input type="text"></li>
+                    <li>Expiry date<input type="date"></li>
+                </ul>
+            </div>
+   
+    </li>
+</div>
+    <div class="payment">
+        <li><a href="">Credit card</a>
+            <div class="box">
+                <ul>
+                    <li>Name<input type="text" name="" placeholder="Name on card" id=""></li>
+                    <li>Card Number<input type="number" name="Number on card" id=""></li>
+                    <li>cvv&nbsp; <input type="text"></li>
+                    <li>Expiry date<input type="date"></li>
+                </ul>
+        </li>
+        </div>
+    </div>
+    <div class="payment">
+        <li><a href="">NetBanking</a>
+            <ul>
+                <li>Select Blank <select name="" id="">
+                        <option value="">SBI</option>
+                        <option value="">Bank OfIn</option>
+                    </select></li>
+                
+                <li>Card Number<input type="number" name="Number on card" id=""></li>
+                <li>cvv <input type="text"></li>
+                <li>Expiry date<input type="date"></li>
+            </ul>
+        </li>
+    </div>
+    <div class="payment">
+        <li><a href="">Google Pay/Phone pay</a>
+            <ul>
+                UPI Id <input type="text">
+            </ul>
+        </li>
+    </div>
+    <div class="payment">
+        <li><a href="">Cash on delivery</a>
+            <ul>
+                cash on delivery:<input type="checkbox" name="" id=""> </ul>
+        </li>
+    </div>
+    <button>Pay  <p id="amount">0</p></button>
+    <script src="cart.js"></script>
+</body>
+
+</html>
